@@ -1,0 +1,112 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Anton Bat, str, LIC=V85FJ-UI2FS-E03N4-F3F2J-UPX10-SXZNM
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.4.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TARMCM1.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+E:\Git_soft\KEBI_boot\test1.uvprojx
+Project File Date:  06/28/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+rcc.c(20): warning: '&' within '|' [-Wbitwise-op-parentheses]
+        RCC->CFGR = RCC->CFGR & (~RCC_CFGR_PLLMUL) | (RCC_CFGR_PLLMUL12); /* (6) */
+                    ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~ ~
+rcc.c(20): note: place parentheses around the '&' expression to silence this warning
+        RCC->CFGR = RCC->CFGR & (~RCC_CFGR_PLLMUL) | (RCC_CFGR_PLLMUL12); /* (6) */
+                    ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+compiling rcc.c...
+compiling gpio.c...
+main.c(83): warning: initializing 'void (*)(void)' with an expression of type 'void *' converts between void pointer and function pointer [-Wpedantic]
+        void (*reset_handler)(void) = (void*)JumpAddress;
+               ^                      ~~~~~~~~~~~~~~~~~~
+main.c(72): warning: function 'JumpToApp' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+main.c(199): warning: implicit conversion loses integer precision: 'volatile uint16_t' (aka 'volatile unsigned short') to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+      uart_buf[rcnt] = USART1->RDR;     //receive data
+                     ~ ~~~~~~~~^~~
+main.c(11): warning: no previous extern declaration for non-static variable 'uart_buf' [-Wmissing-variable-declarations]
+uint8_t uart_buf[UART_BUF_SIZE];
+        ^
+main.c(11): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+uint8_t uart_buf[UART_BUF_SIZE];
+^
+4 warnings generated.
+compiling main.c...
+uart.c(39): warning: implicit conversion loses integer precision: 'volatile uint16_t' (aka 'volatile unsigned short') to 'unsigned char' [-Wimplicit-int-conversion]
+    *ReceivedData = USART1->RDR ;        //receive data to clear error
+                  ~ ~~~~~~~~^~~
+uart.c(43): warning: implicit conversion loses integer precision: 'volatile uint16_t' (aka 'volatile unsigned short') to 'unsigned char' [-Wimplicit-int-conversion]
+  *ReceivedData = USART1->RDR;     //receive data
+                ~ ~~~~~~~~^~~
+2 warnings generated.
+compiling uart.c...
+flash.c(51): warning: implicit conversion loses integer precision: 'int' to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+                tmp_data = ((*(unsigned char*)(data+2*k+1)<<8)) + (*(unsigned char*)(data+2*k));
+                         ~ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+flash.c(137): warning: no newline at end of file [-Wnewline-eof]
+//----------------------------------------------------
+                                                      ^
+2 warnings generated.
+compiling flash.c...
+compiling iwdg.c...
+compiling tim.c...
+assembling startup_stm32f030x6.s...
+compiling system_stm32f0xx.c...
+linking...
+Program Size: Code=1820 RO-data=192 RW-data=0 ZI-data=1072  
+FromELF: creating hex file...
+".\Objects\test1.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F0xx_DFP.2.1.1.pack
+                Keil.STM32F0xx_DFP.2.1.1
+                STMicroelectronics STM32F0 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+  C:\Users\engl5\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Keil.Standalone::Device:Startup:1.0.0
+      Include file:  Drivers\CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h
+      Source file:   MDK\Device\Source\ARM\STM32F0xx_OPT.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F0xx\Source\Templates\system_stm32f0xx.c
+      Source file:   Drivers\CMSIS\Device\ST\STM32F0xx\Source\Templates\arm\startup_stm32f030x6.s
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

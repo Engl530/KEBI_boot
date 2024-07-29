@@ -1,0 +1,105 @@
+Dependencies for Project 'test1', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\gpio.c)(0x634E4307)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Device/ST/STM32F0xx/Include -I ./CMSIS/Device/ST/STM32F0xx/Source -I ./CMSIS-I./RTE/_Target_1-IC:/Users/engl5/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/engl5/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.1/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F030x6 -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/gpio.o -MD)
+I (RTE\_Target_1\Pre_Include_Global.h)(0x649BA897)
+I (CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x633A91DA)
+I (CMSIS\Device\ST\STM32F0xx\Include\stm32f030x6.h)(0x61A83D58)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F58EE)
+I (CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x61A83D58)
+I (gpio.h)(0x634CCC31)
+F (.\main.c)(0x64A79D09)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Device/ST/STM32F0xx/Include -I ./CMSIS/Device/ST/STM32F0xx/Source -I ./CMSIS-I./RTE/_Target_1-IC:/Users/engl5/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/engl5/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.1/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F030x6 -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/main.o -MD)
+I (RTE\_Target_1\Pre_Include_Global.h)(0x649BA897)
+I (CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x633A91DA)
+I (CMSIS\Device\ST\STM32F0xx\Include\stm32f030x6.h)(0x61A83D58)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F58EE)
+I (CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x61A83D58)
+I (gpio.h)(0x634CCC31)
+I (rcc.h)(0x634CCC5C)
+I (uart.h)(0x634CD5E8)
+I (main.h)(0x634F9010)
+I (iwdg.h)(0x633F891D)
+I (flash.h)(0x634F6FE2)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x603515E0)
+I (tim.h)(0x634CD5F9)
+F (.\rcc.c)(0x634CD591)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Device/ST/STM32F0xx/Include -I ./CMSIS/Device/ST/STM32F0xx/Source -I ./CMSIS-I./RTE/_Target_1-IC:/Users/engl5/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/engl5/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.1/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F030x6 -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/rcc.o -MD)
+I (RTE\_Target_1\Pre_Include_Global.h)(0x649BA897)
+I (CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x633A91DA)
+I (CMSIS\Device\ST\STM32F0xx\Include\stm32f030x6.h)(0x61A83D58)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F58EE)
+I (CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x61A83D58)
+I (rcc.h)(0x634CCC5C)
+F (.\uart.c)(0x634E4307)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Device/ST/STM32F0xx/Include -I ./CMSIS/Device/ST/STM32F0xx/Source -I ./CMSIS-I./RTE/_Target_1-IC:/Users/engl5/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/engl5/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.1/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F030x6 -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/uart.o -MD)
+I (RTE\_Target_1\Pre_Include_Global.h)(0x649BA897)
+I (CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x633A91DA)
+I (CMSIS\Device\ST\STM32F0xx\Include\stm32f030x6.h)(0x61A83D58)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F58EE)
+I (CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x61A83D58)
+I (uart.h)(0x634CD5E8)
+I (main.h)(0x634F9010)
+F (.\flash.c)(0x634F780E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Device/ST/STM32F0xx/Include -I ./CMSIS/Device/ST/STM32F0xx/Source -I ./CMSIS-I./RTE/_Target_1-IC:/Users/engl5/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/engl5/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.1/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F030x6 -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/flash.o -MD)
+I (RTE\_Target_1\Pre_Include_Global.h)(0x649BA897)
+I (CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x633A91DA)
+I (CMSIS\Device\ST\STM32F0xx\Include\stm32f030x6.h)(0x61A83D58)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F58EE)
+I (CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x61A83D58)
+I (flash.h)(0x634F6FE2)
+F (.\iwdg.c)(0x634CCC5C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Device/ST/STM32F0xx/Include -I ./CMSIS/Device/ST/STM32F0xx/Source -I ./CMSIS-I./RTE/_Target_1-IC:/Users/engl5/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/engl5/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.1/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F030x6 -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/iwdg.o -MD)
+I (RTE\_Target_1\Pre_Include_Global.h)(0x649BA897)
+I (CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x633A91DA)
+I (CMSIS\Device\ST\STM32F0xx\Include\stm32f030x6.h)(0x61A83D58)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F58EE)
+I (CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x61A83D58)
+I (iwdg.h)(0x633F891D)
+F (.\tim.c)(0x634E4307)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Device/ST/STM32F0xx/Include -I ./CMSIS/Device/ST/STM32F0xx/Source -I ./CMSIS-I./RTE/_Target_1-IC:/Users/engl5/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/engl5/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.1/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F030x6 -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/tim.o -MD)
+I (RTE\_Target_1\Pre_Include_Global.h)(0x649BA897)
+I (CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x633A91DA)
+I (CMSIS\Device\ST\STM32F0xx\Include\stm32f030x6.h)(0x61A83D58)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F58EE)
+I (CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x61A83D58)
+I (tim.h)(0x634CD5F9)
+F (.\gpio.h)(0x634CCC31)()
+F (.\main.h)(0x634F9010)()
+F (.\rcc.h)(0x634CCC5C)()
+F (.\uart.h)(0x634CD5E8)()
+F (.\flash.h)(0x634F6FE2)()
+F (.\iwdg.h)(0x633F891D)()
+F (.\tim.h)(0x634CD5F9)()
+F (RTE\Device\STM32F030F4Px\startup_stm32f030x6.s)(0x633A81C0)(--cpu Cortex-M0 -g --pd "__MICROLIB SETA 1"-I.\RTE\_Target_1-IC:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\engl5\AppData\Local\Arm\Packs\Keil\STM32F0xx_DFP\2.1.1\Drivers\CMSIS\Device\ST\STM32F0xx\Include--pd "__UVISION_VERSION SETA 536"--pd "_RTE_ SETA 1"--pd "STM32F030x6 SETA 1"--pd "_RTE_ SETA 1"--list .\listings\startup_stm32f030x6.lst--xref -o .\objects\startup_stm32f030x6.o--depend .\objects\startup_stm32f030x6.d)
+F (RTE\Device\STM32F030F4Px\system_stm32f0xx.c)(0x633A81C0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -Oz -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./CMSIS/Device/ST/STM32F0xx/Include -I ./CMSIS/Device/ST/STM32F0xx/Source -I ./CMSIS-I./RTE/_Target_1-IC:/Users/engl5/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/engl5/AppData/Local/Arm/Packs/Keil/STM32F0xx_DFP/2.1.1/Drivers/CMSIS/Device/ST/STM32F0xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F030x6 -D_RTE_  -include "Pre_Include_Global.h"-o ./objects/system_stm32f0xx.o -MD)
+I (RTE\_Target_1\Pre_Include_Global.h)(0x649BA897)
+I (CMSIS\Device\ST\STM32F0xx\Include\stm32f0xx.h)(0x633A91DA)
+I (CMSIS\Device\ST\STM32F0xx\Include\stm32f030x6.h)(0x61A83D58)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x603515E0)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\engl5\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F58EE)
+I (CMSIS\Device\ST\STM32F0xx\Include\system_stm32f0xx.h)(0x61A83D58)
